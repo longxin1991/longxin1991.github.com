@@ -12,5 +12,5 @@ categories: Activities
 
 <img src="/pic/act/20140515/DSC_5847_s.jpg"/>
 
-还有一些自己拍的照片见<a
-herf="http://forum.ubuntu.org.cn/viewtopic.php?f=15&t=459652" >ubnutu论坛的帖子。<a/>
+还有一些自己拍的照片见
+[Ubuntu论坛里的帖子.](http://forum.ubuntu.org.cn/viewtopic.php?f=15&t=459652)
