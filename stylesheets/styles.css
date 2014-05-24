@@ -253,3 +253,5 @@ footer {
     color:#444;
   }
 }
+
+img[alt=fig] {width:100px;}
