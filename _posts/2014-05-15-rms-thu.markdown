@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2014-5-15,RMS清华站活动"
+title: "RMS清华站活动"
 categories: Activities
 ---
 
@@ -11,3 +11,6 @@ categories: Activities
 最后还有集体合影
 
 <img src="/pic/act/20140515/DSC_5847_s.jpg"/>
+
+还有一些自己拍的照片见<a
+herf="http://forum.ubuntu.org.cn/viewtopic.php?f=15&t=459652" >ubnutu论坛的帖子。<a/>
