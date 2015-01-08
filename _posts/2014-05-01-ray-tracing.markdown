@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "水平层介质不同速度模型下的射线追踪"
-categories: Seis
+categories: seis
 tags: [seis,programming]
 ---
 

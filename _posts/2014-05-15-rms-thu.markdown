@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RMS清华站活动"
-categories: Activities
+categories: activities
 tags: activity
 ---
 
