@@ -11,17 +11,28 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
-
+		<script type="text/javascript"
+			src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
     </head>
     <body>
-
+		<div id="sidebar">
+			<h1>Categories</h1>
+			{% for cat in site.categories %}
+			<ul id='menu'>
+				<li><a href="/blog/category/{{ cat| first }}/"><h2>{{ cat|first}}</h2></a></li>
+			{% endfor %}
+			</ul>
+		</div>
         <div class="site">
           <div class="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
             <a class="extra" href="/">home</a>
           </div>
-
+		  
+		  
           {{ content }}
+          
 
           <div class="footer">
             <div class="contact">
@@ -38,9 +49,11 @@
               </p>
             </div>
           </div>
+
         </div>
 <div>
-    <p><small>人生は短い。反省する時間はあるけれど、後悔する時間はない。</small></p>
+    <p id="quote"><small>人生は短い。反省する時間はあるけれど、後悔する時間はない。</small></p>
 </div>
+
     </body>
 </html>
