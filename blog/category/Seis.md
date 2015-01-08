@@ -2,5 +2,5 @@
 layout: blog_by_category
 title: 'Articles by category: Seis'
 category: Seis
-permalink: Seis/
+permalink: seis/
 ---
