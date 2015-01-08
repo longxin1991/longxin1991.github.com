@@ -2,6 +2,7 @@
 layout: post
 title: "水平层介质不同速度模型下的射线追踪"
 categories: Seis
+tags: [seis,programming]
 ---
 
 为了方便，只考虑存在三层介质的情况。

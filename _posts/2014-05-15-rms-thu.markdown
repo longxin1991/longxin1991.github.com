@@ -2,6 +2,7 @@
 layout: post
 title: "RMS清华站活动"
 categories: Activities
+tags: activity
 ---
 
 5月15号下午2点半，Richhard.M.Stallman在清华东阶梯教室的演讲。主要内容还是宣传他的自由软件思想。第一次亲眼见到过去只能在书里看到的大神还是很激动的啊，而且还抽奖得到一次合影的机会，真是太幸运了。
