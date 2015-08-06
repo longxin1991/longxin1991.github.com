@@ -1,0 +1,18 @@
+---
+layout: post
+title: "istats: Mac下查看CPU温度和风扇转速"
+categories: computer
+tags: mac
+---
+
+用Linux的时候总习惯用```sensors```命令查看CPU温度和风扇转速，换到Mac下，一下子不知道该用什么替代。找了一下，有个**Istats for Mac**好像还不错，但要不是免费的，对于不爱用盗版的我来说只有另寻其他的办法了。
+
+一种查看CPU温度的方法是用**[IntelPowerGadget For Mac](https://software.intel.com/zh-cn/articles/intel-power-gadget/)**，免费，可以记录温度和功耗，但不可以看风扇转速，且不能在命令行下查看。不过提供了C和C++的[API](https://software.intel.com/en-us/blogs/2012/12/13/using-the-intel-power-gadget-api-on-mac-os-x)，如果自己要写个命令行的程序应该可以用到。
+
+还有一种比较好的方案是，用Ruby的gem```istats```，可以和```sensors```相当，而且可以看到电池的充放电次数。
+
+	sudo gem install istats
+	
+即可安装。效果如下
+
+![img](/pic/fig/istats.png "istats")
